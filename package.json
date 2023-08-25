@@ -1,0 +1,19 @@
+{
+  "name": "vendornode",
+  "version": "1.0.0",
+  "description": "vendor-dash-backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shoaib",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.4.4",
+    "nodemon": "^3.0.1"
+  }
+}
